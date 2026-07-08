@@ -1,0 +1,16 @@
+dotnet new sln
+
+- dotnet new -- help
+
+- dotnet new list
+
+dotnet new webapi -o ./comercio-api -- use-controllers
+
+dotnet sln add ./comercio-api/comercio-api.csproj
+
+// comando para correr el proyecto de forma segura
+dotnet run -lp https 
+
+// paquete para todo lo que necesitamos para nuestro proyecto documentar
+dotnet add package Swashbuckle.AspNetCore
+
